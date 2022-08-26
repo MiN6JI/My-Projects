@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;800&display=swap');
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f9fafb;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+header img{
+    padding: 10px;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    display: inline;
+    padding: 15px 25px;
+}
+ul li a{
+    font-size: 1em;
+    color: #475569;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.log_in{
+    width: 10%;
+}
+
+
+
+header button{
+    border-radius: 10px;
+    border-top: none;
+    border-left: 2px solid #f3f4f6;
+    border-right: 2px solid #f3f4f6;
+    border-bottom: 1px solid #d1d5db;
+    padding: 13px 10px;
+    background-color: #fff;
+    color: #6366f1;
+    margin: 10px;
+    width: 100px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.text_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_header h1{
+    margin: 35px 0px 15px 0px;
+    font-size: 3em;
+    font-weight: 800;
+    padding: 3px;
+}
+
+.hero_section_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: centers;
+    align-items: center;
+}
+
+.hero_section_text p{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #6b7280;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.get button, .live button{
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.get button{
+    border: none;
+    padding: 15px;
+    background-color: #6366f1;
+    color: white;
+}
+.live button{
+    border: none;
+    padding: 15px;
+    background-color: white;
+    color: #6166f1;
+    border-left: 2px solid #f3f4f6;
+    border-right: 2px solid #f3f4f6;
+    border-bottom: 1px solid #d1d5db;
+}

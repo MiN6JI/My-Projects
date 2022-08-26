@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content{
+    /* linear-gradient(#4b2dd342, #2d90d350),  */
+    width: 100%;
+    height: 100vh;
+    background-image:  linear-gradient(#00000042, #00000050), url("https://images.unsplash.com/photo-1575125069494-6a0c5819d340?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0px auto;
+}
+
+.logo img{
+    width: 125px;
+    margin: 15px 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 20px auto;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 15px 20px;
+}
+
+.text{
+    margin-left: 8%;
+    margin: 8%;
+}
+
+.text h1{
+    color: white;
+    font-size: 5em;
+    line-height: 70px;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+
+.text .slide_left{
+    animation: slideleft 1s linear forwards;
+}
+
+@keyframes slideleft{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
+.text p{
+    color: white;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    color: white;
+}
+
+button:hover{
+    border: none;
+    background-color: #fff;
+    color: black;
+}
+
+.right_text{
+    width: 500px;
+    float: right;
+    margin-right: 8%;
+}
+
+.right_text p{
+    text-align: right;
+    position: relative;
+    bottom: 50px;
+    font-size: .7em;
+    color: white;
+    line-height: 15px;
+}
+
+

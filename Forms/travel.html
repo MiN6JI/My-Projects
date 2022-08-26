@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+</head>
+<body>
+    <h3>SHRAM SHKTI EXP</h3>
+    <p><pre>#12452  |  Departs on S M T W TH F SA</pre></p>
+    <fieldset>
+        <legend>Availability Status</legend>
+        <p><pre><strong>25</strong>| Available 0397</pre><Small>Updated Few minutes ago</Small></p>
+        <fieldset>
+            <legend>Your Boarding Station</legend>
+        <select name="Station" id="Station">
+            <option value="Unidentified Station">Station Unidentified</option>
+            <option value="S1">S1</option>
+            <option value="S1">S2</option>
+            <option value="S1">S3</option>
+            <option value="S1">S4</option>
+            <option value="S1">S5</option>
+            <option value="S1">S6</option>
+            <option value="S1">S7</option>
+            <option value="S1">S8</option>
+            <option value="S1">S9</option>
+            <option value="S1">S10</option>
+        </select>
+    </fieldset>
+    </fieldset>
+    <div>
+        <h3>Get Free Cancellation</h3>
+        <p><input type="radio" name="Refund" id="Refund">Yes, I want full refund upon cancellation Approx Refund : 180 Rs/person <br> Only for 45 Rs/person.</p>
+        <p><input type="radio" name="Refund" id="Refund">No, I am willing to pay the charges upon cancellation.
+        <a href="#">Know more</a>
+        <br>
+        </p>
+        <p><small>Note | Mr. Gupta had to cancel his train ticket worth ₹3000 at the last moment. Since he chose free cancellation he did not had to pay ₹1500 penalty and got full refund.</small></p>
+        <p><small>*Ticket can only be cancelled before Chart Preparation</small></p>
+    </div>
+    <div>
+        <h3>Add Travellers & Preferences</h3>
+        <p>Travellers Information</p>
+        <p>Name <br>
+        <input type="text" name="Name" id="Name" placeholder="Enter Traveller's Name">
+        </p>
+        <p>Age <br>
+        <input type="text " name="Age" id="Age" placeholder="Enter Age"></p>
+        <p>Gender <br>
+        <select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Male">Female</option>
+            <option value="Male">Other</option>
+        </select>
+        </p>
+        <p>Nationality <br>
+        <Select>
+            <option value="Indian">Indian</option>
+            <option value="Other">Other</option>
+        </Select>
+    </p>
+    <p>Berth Preference <br>
+    <Select>
+        <option value="No Berth Preferences">No Berth Preferences</option>
+        <option value="Other">Other</option>
+    </Select></p>
+    </div>
+    <div>
+        
+        <fieldset>
+            <legend>IRCTC Account Details</Legend>
+            <p>IRCTC Username</p>
+            <input type="text" name="Username" id="Username" placeholder="Enter IRCTC Username">
+            <p>IRCTC Password <br>
+            <small>Please ensure you have your password ready. In case you don't have your password, we strongly recommend that you get a new password now.</small></p>
+        </fieldset>
+        <h3>Contact Information</h3>
+        <p><small>(We'll send your ticket and status updates here)</small></p>
+        <p>Email <br>
+        <input type="email" name="Email" id="Email" placeholder="Enter your Email"> 
+    Mobile Number <input type="number" name="Phone No." id="Phone No." placeholder="Enter you Mobile Number"> </p>
+    <h3>Address Details</h3>
+    <p><small>(Please fill your destination address details)</small></p>
+    <p><strong>Adress Line 1</strong><Small>(Mandatory)</Small><br>
+    <input type="text" name="Address Line" id="Address Line" placeholder="Address line 1"></p>
+    <p><strong>PIN CODE</strong><small>(Mandatory)</small><br>
+    <input type="number" name="Code" id="Code" placeholder="123456"></p>
+    <p><strong>City</strong><small>(Mandatory)</small><br>
+    <input type="text" name="City" id="City" placeholder="Enter  City"></p>
+    <p><strong>State</strong><small>(Mandatory)</small><br>
+    <input type="text" name="State" id="State" placeholder="Please select State"></p>
+    <p><strong>Post Office</strong><small>(Mandatory)</small><br>
+    <input type="text" name="Post Office" id="Post Office" placeholder="Please select Post Office"></p>
+    <h3>Offers & Discount</h3>
+    <fieldset>
+        <input type="text" name="Coupon" id="Coupon" placeholder="Enter your Coupon"> Enter your Coupon
+        <input type="submit" value="Apply">
+    </fieldset>
+    <h3>Addtional Preferences</h3>
+    <p><strong>Choose one option for assured lower berth or same coach</strong></p>
+    <input type="radio" name="none" id="none">None
+    <br>
+    <input type="radio" name="Coach" id="Coach">Book, only if all berths are allotted in same coach
+    <p><strong>Other Options</strong></p>
+    <input type="checkbox" name="berth confirm" id="berth confirm">Book only if confirm berths are allotted.
+    <br>
+    <input type="checkbox" name="upgrade" id="upgrade">Consider for auto-upgradation (optional)
+    <p><strong>Would you like to take Travel Insurance for ₹ 0.35 per person?</strong></p>
+    <input type="radio" name="Accept" id="Accept">Yes, and I accept the      
+    <a href="#">Insurance Terms & Conditions</a><br>
+    <input type="radio" name="Not Accept" id="Not Accept">No, I don't want travel insurance.
+    <br><br>
+    <input type="button" value="PAY & BOOK NOW"> <br><br><br>
+    <p><small>By proceeding with the booking, I confirm that I have read and I accept the Cancellation & Refund Policy, Privacy Policy, User Agreement and Terms of Service</small></p>
+    </div>
+</body>
+</html>

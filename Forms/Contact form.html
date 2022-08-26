@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Contact form.css" />
+  </head>
+  <body>
+      <div class="contact_Us">
+        <div class="heading">
+          <h1>Contact Us</h1>
+          <p class="heading">
+            Fill out the form below and we'll be in touch as soon as possible!
+          </p>
+        </div>
+        <!--Personal Info-->
+        <div>
+          <h2>Personal Information</h2>
+          <div>
+          <div>
+          <div id="place">
+            <p class="right">Last name* </p>
+            <p class="left">First name*</p>
+          </div><br><br>
+          <div>
+            <p>
+              <input type="text" name="first name" id="First name" />
+              <input type="text" name="Last name" id="Last name" />
+            </p>
+          </div>
+        </div>
+          <div>
+          <div id="place">
+            <p class="right">Email*</p>
+            <p class="left">Phone number*</p>
+          </div><br><br>
+          <div>
+            <p>
+            <input type="tel" name="Pnumber" id="Pnumber">
+            <input type="text" name="Email" id="Email"/>
+            </p>
+          </div>
+        </div>
+    </div>
+<!--Personal Info-->
+<div>
+            <h3>Address*</h3>
+            <div id="hover">
+                <div>
+                <div id="place">
+                  <p class="right">City/Suburbs </p>
+                  <p class="left">Street*</p>
+                </div><br><br>
+                <div>
+                  <p>
+                    <input type="text" name="Street" id="Street" />
+                    <input type="text" name="City" id="City" />
+                  </p>
+                </div>
+              </div>
+                <div>
+                <div id="place">
+                  <p class="right">Zip/Post Code*</p>
+                  <p class="left">State*</p>
+                </div><br><br>
+                <div>
+                  <p>
+                  <input type="tel" name="State" id="State">
+                  <input type="text" name="Pincode" id="Pincode"/>
+                  </p>
+                </div>
+              </div>
+          </div><br>
+          <div id="full">
+        <p >Country*</p>
+        <input type="text" name="country" id="country" />
+    </div>
+    </div>
+       <!--Product info-->
+        <div id="Pinfo">
+          <h2>Product Information</h2>
+          <p>Product Model*</p>
+            <select name="model" id="model">
+              <option value="A">None</option>
+              <option value="A">Model A</option>
+              <option value="A">Model B</option>
+              <option value="A">Model C</option>
+              <option value="A">Model D</option>
+            </select>
+          <p>Discribe the issue*</p>
+          <textarea name="issue" id="issue" cols="30" rows="10"></textarea>
+          <br><br>
+          <input type="button" value="Submit"/>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

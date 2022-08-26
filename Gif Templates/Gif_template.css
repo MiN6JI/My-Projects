@@ -1,0 +1,83 @@
+*{
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    font-size: 1.2em;
+    font-weight: 500;
+    display: inline;
+    padding: 0px 25px;
+} 
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    background-image: url('https://www.thisiscolossal.com/wp-content/uploads/2014/03/120515.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    color: white;
+    padding: 0 8%;
+}
+
+h1{
+    font-size: 75px;
+    margin-top: 10%;
+}
+
+button{
+    margin-top: 40px;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.062);
+    border: none;
+}
+
+.dots{
+    position: relative;
+    top: 100px;
+    width: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d1{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 50%;
+}
+
+#dot_3{
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.left_text{
+    font-size: 20px;
+    text-align: right;
+    float: right;
+    padding: 0;
+}
+
+/* .left_text p{
+    text-align: justify;
+} */
+
+.left_text button{
+    margin: 20px 0px;
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harry_form</title>
+  </head>
+  <body>
+    <div>
+      <h1>Practicing forms</h1>
+      <form action="Harry_form.php">
+        <p>Name: <input type="text" placeholder="Enter your Name" /></p>
+        <label for="SectionId_A">
+        <input type="radio" name="Section" value="Section a" id="SectionId_A"/>Section A
+    </label>
+    <label for="SectionId_B"> 
+        <input type="radio" name="Section" value="Section b" id="SectionId_B"/>Section B
+    </label>
+    <fieldset>
+        <legend>Cast</legend>
+        <label for="IET_1">
+        <input type="checkbox" name="Maratha" id="IET_1" class="IT">Maratha</label>
+        <br>
+        <label for="IET_2">       
+        <input type="checkbox" name="Sc/Bc" id="IET_2" class="IT">SC/Bc </label> <br>
+        <label for="IET_3">
+        <input type="checkbox" name="Obc" id="IET_3" class="IT">Obc </label><br>
+        <label for="IET_4"><input type="checkbox" name="Other" id="IET_4" class="IT">Other</label><br>
+    </fieldset>
+    <legend>Explain</legend>
+    <textarea name="About you" id="About you" placeholder="Complement yourself" cols="30" rows="10"></textarea>
+    </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 50px;
+    margin: 0px;
+}
+
+.gym_logo{
+    width: 10%;
+    margin: 0px auto;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.menubar{
+    width: 60%;
+    margin: 10px 10px;
+}
+
+.menubar ul li{
+    display: inline-flex;
+    margin: 15px 20px;
+}
+
+.menubar ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 5px;
+
+}
+
+.active, .show:hover{
+    border-top: 3px solid #7aafef;
+}
+
+.input_search{
+    width: 10%;
+    display: inline-flex;
+    margin: 15px auto;
+}
+
+.search{
+    text-align: left;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+input[type="text"]{
+    width: 200px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #7aafef;
+    padding-bottom: 5px;
+}
+
+.icon{
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+span i{
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    color: #7aafef;
+}
+
+.hero{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content h1::after{
+    content: '';
+    width: 120px;
+    height: 2px;
+    background:#7aafef;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.content h1 b{
+    color: #7aafef;
+}
+
+.video_icon{
+    width: 150px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video_icon .play_btn i{
+    font-size: 2em;
+    padding: 0;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 2px #7aafef;
+}
+
+.video_icon .play_btn h3{
+    margin-left: 10px;
+}
+
+.video_icon h3::after{
+    content: '';
+    width: 120px;
+    height: 2px;
+    background:#7aafef;
+    position: absolute;
+    top: 85%;
+    left: 3%;
+}
+
+.extra{
+    margin-top: 25%;
+}
+
+.extra ul li{
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+
+.extra ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.image{
+    width: 50%;
+    position: relative;
+    right: 100px;
+    top: 40px;
+}
+
+.shop{
+    position: absolute;
+    right: 0;
+    top: -80px;
+    width: 150px;
+    height: 200px;
+    background: linear-gradient( #84A3FD, #ECF0FC);
+    border-radius: 0 0 60px 240px;
+}
+
+.shop span i{
+    color: white;
+    position: relative;
+    top: 110px;
+    left: 80px;
+    font-size: 1.5em;
+}
+
+.social_links{
+    border-radius: 70px 150px 240px 60px;
+    position: absolute;
+    left: -18px;
+    top: 30%;
+    background: linear-gradient(#84A3FD, #ECF0FC);
+    width: 80px;
+    height: 230px;
+}
+
+.social_links ul li{
+    margin: 20px 0px 0px 40px;
+    list-style-type: none;
+}
+.social_links ul li i{
+    color: white;
+    font-size: 1.3em;
+}
+
+.pattern{
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 260px;
+    opacity: .3;
+    z-index: -1;
+}
+
+.sec_pattern{
+    width: 100px;
+    position: absolute;
+    top: 73.8%;
+    left: -12%;
+    /* opacity: 1; */
+    z-index: -1;
+}

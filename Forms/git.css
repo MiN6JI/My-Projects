@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);    
+}
+
+body{
+    margin: 2.9cm 9.5cm 2.9cm 9.5cm;
+    padding: 2px 45px 2px 45px;
+    height: 13cm;
+    border: 1px solid rgb(164, 177, 252);
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: rgb(36, 61, 246);
+}
+
+#sizing input[type="text"],input[type="tel"]{
+    width: 48.88%;
+    margin: 8px 2px 8px 2px;
+    height: 1.2cm;
+    border: none;
+    border-radius: 8px;
+    font-size: medium;
+}
+
+#arrange input[type="text"], textarea{
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin: 8px 0px 8px 0px;
+    height: 1.2cm;
+    font-size: medium;
+    
+}
+
+input[type="button"]{
+    color: white;
+    background: rgb(36, 61, 246);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 1cm;
+}
+
+textarea{
+    background-color: rgb(164, 177, 252);
+    border: none;
+    border-radius: 8px;
+    height: 2.5cm;
+}
+
+.name{
+background: rgb(232, 233, 255);
+} 
+
+.color{
+    background-color: #DDE1FF;
+}
+
+.purple{
+    background: rgb(199, 205, 253);
+}
+
+::placeholder{
+
+    color: rgb(36, 61, 246);
+}
+
+input[type="button"]:hover{
+    background-color: rgb(0, 30, 255);
+}
+
+input[type="button"]:active {
+        transform: scale(.982);
+}   

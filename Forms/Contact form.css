@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rowdies:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    background-color:  rgb(77, 77, 77);
+}
+
+body{
+    color: white;
+    margin: 75px 280px 75px 280px;
+    padding: 5px 25px 25px;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Rowdies', cursive;
+    font-size: 60px;
+    margin: 20px;
+}
+
+h2{
+    padding-top: 22px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+input[type="text"],input[type="tel"]{
+    margin: 5px;
+    padding: 5px;
+    width: 48%;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-left: 0px;
+
+}
+.right{
+    float: right;
+    left: 45px;
+}
+
+#place .left{
+    float: left;
+}
+#full input[type="text"],input[type="button"],.complete,textarea,select{
+    width: 100%;
+}
+textarea{
+    background-color: rgba(255, 255, 255, 0.336);
+    border: none;
+    border-radius: 3px;
+}
+
+select{
+    color: white;
+    border: 1px solid white;
+    height: 35px;
+    border-radius: 3px;
+}
+
+input[type="button"]{
+    border: 0px;
+    border-radius: 4px;
+    letter-spacing: .0.11em;
+    height: 46px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    background-color: rgba(74, 197, 125, 0.863);
+}
+
+#place,#Pinfo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+input[type="button"]:hover{
+    background-color: rgba(4, 192, 83, 0.863);
+    }
+
+input[type="button"]:active {
+        transform: scale(.982);
+}

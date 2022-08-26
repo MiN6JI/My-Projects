@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    background-color: #D3E6FD;
+    padding: 2cm 11cm ;
+}
+
+.border{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 25px 40px;
+    background-color: white;
+    text-align: center;
+    width: 16cm;
+    height: 12cm;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    margin: 0px 0px 16px 0px ;
+    color: rgb(36, 61, 246);
+    text-align: left;
+}
+
+#sizing input[type="text"]{
+    width: 47.5%;
+    margin: 8px 2px;
+    height: 1.2cm;
+    border: none;
+    border-radius: 8px;
+    font-size: medium;
+    background-color: #e8e9ff;
+}
+
+#color input[type="text"], input[type="tel"]{
+    width: 47.5%;
+    margin: 8px 2px;
+    height: 1.2cm;
+    border: none;
+    border-radius: 8px;
+    font-size: medium;
+    background-color: #dde1ff;
+}
+
+#arrange input[type="text"]{
+    border: none;
+    border-radius: 8px;
+    width: 97.5%;
+    margin: 6px 0px 8px 0px;
+    height: 1.2cm;
+    font-size: medium;
+    background-color: rgb(199, 205, 253);;
+}
+
+textarea{
+    background-color: rgb(164, 177, 252);
+    border: none;
+    border-radius: 8px;
+    height: 2.5cm;
+    margin-top: 6px;
+    width: 97.5%;
+}
+
+input[type="button"]{
+    color: white;
+    background: rgb(36, 61, 246);
+    border: none;
+    border-radius: 20px;
+    width: 26%;
+    height: 1cm;
+    margin-top: 12px;
+}
+
+::placeholder{
+    padding: 8px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(36, 61, 246);
+}
+
+input[type="button"]:active {
+    transform: scale(.982);
+}   

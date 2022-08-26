@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;800&display=swap');
+
+    body, html{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .hero_section{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hero_section_left{
+        width: 50%;
+        height: 100%;
+    }
+    .hero_section_right{
+        width: 50%;
+        height: 100%;
+    }
+    .hero_section_right img{
+        /* align-self: flex-end; */
+        object-fit: cover;
+        float: right;
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0 100%, 0 100%);
+
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header img{
+        padding: 0px 10px;
+    }
+
+    ul{
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-flex;
+        padding: 25px 10px;
+    }
+
+    ul li a{
+        font-weight: 600;
+        text-decoration: none;
+        color: #64748b;
+        font-size: 15px;
+
+    }
+
+    header button{ width: 80px;
+        height: 40px;
+        background-color: white;
+        border: none;
+        margin: 33px 30px ;
+        font-size: 18px;
+        font-weight: 500;
+        color: #6366f1;
+
+    }
+
+    .hero_section_text{
+        position: relative;
+        top: 50px;
+        padding: 15px;
+    }
+
+    .hero_section_text h1{
+        margin: 0px 15px ;
+        font-size: 3.5em;
+        font-weight: 800;
+    }
+
+    .hero_section_text p{
+        margin: 0px 15px;
+        text-align: justify;
+        width: 39vw;
+        padding: 15px 0px;
+    }
+
+    .btn{
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .get button{
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        padding: 15px;
+        color: white;
+        margin: 5px;
+        background-color: #6366f1;
+    }
+    .live button{
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        padding: 15px;
+        color: #6366f1;
+        margin: 5px;
+        background-color: #e0e7ff;
+    }
+
+    .live button:hover{
+        background-color: #c7d2fe;
+    }
+    .get button:hover{
+        background-color: #4f46e5;
+    }
